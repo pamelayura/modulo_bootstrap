@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Livre Mente</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg sticky-top p-4">
+            <div class="container">
+                <h1 class="brand">Clínica Livre Mente</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#carousel-clinica">Clínica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#especialidades">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="carousel-clinica" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="./imagens/doutor 2.jpg" />
+                <div class="carousel-caption">
+                    <h2>Atendimento humanizado</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="./imagens/psicologia.jpg" />
+                <div class="carousel-caption">
+                    <h2>Salas acolhedoras</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="./imagens/receita.jpg" />
+                <div class="carousel-caption">
+                    <h2>Diversas especialidades</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-clinica" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-clinica" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-clinica" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-clinica" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-clinica" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <section id="especialidades">
+        <div class="container">
+            <h2 class="section-tittle text-center pt-4 pb-4">Especialidades</h2>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100" id="cards">
+                        <img src="https://network.grupoabril.com.br/wp-content/uploads/sites/4/2016/12/cerebro-estetoscopio-psicologia-psiquiatria.jpg?quality=70&strip=all" />
+                        <div class="card-body">
+                            <h4 class="card-tittle">Psiquiatria</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sapiente recusandae quo placeat debitis quas amet esse eligendi dicta, ex reiciendis ut! Eos, rerum. Ad debitis sint nesciunt excepturi odit?</p>
+                            <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100" id="cards">
+                        <img src="https://sites.unoeste.br/blog-unoeste/wp-content/uploads/2020/08/curso-psicologia.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-tittle">Psicologia</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nihil ex laudantium. Assumenda quod sequi nostrum voluptate, obcaecati debitis doloremque dolorum saepe dolore ex consequuntur, perspiciatis totam harum! Sequi, architecto.</p>
+                            <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100" id="cards">
+                        <img src="https://www.centraldasaude.com.br/blog/wp-content/uploads/2021/11/artigo-5-650x427.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-tittle">Fisioterapia</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis exercitationem assumenda illo consequuntur, incidunt explicabo vero obcaecati provident ipsum consequatur deserunt beatae fuga nam reiciendis eius aspernatur natus. Aliquid.</p>
+                            <a href="#" class="btn btn-">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-tittle text-center pt-4 pb-4">Contato</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

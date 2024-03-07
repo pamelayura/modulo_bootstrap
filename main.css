@@ -1,0 +1,56 @@
+body {
+    font-family: Quicksand, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(15, 185, 228);
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(15, 185, 228);
+}
+
+.nav .nav-link,
+.brand,
+.brand:hover {
+    color: #fff;
+}
+
+.brand, .carousel-caption h2 {
+    font-family: Dancing Script, cursive;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.card {
+    background-color: rgba(15, 185, 228, 0.096);
+}
+
+.btn {
+    background-color:  rgb(15, 185, 228);
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+    
+    .brand {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 90%;
+    }
+}
